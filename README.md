@@ -10,7 +10,7 @@ This repository documents the working DGX Spark deployment that was validated on
 sudo mkdir -p /srv/vllm2
 sudo chown "$USER:$USER" /srv/vllm2
 cd /srv/vllm2
-git clone https://github.com/hermes-speedboat/vllm.ornith-1.0-35b_spark.git .
+git clone https://github.com/Bitbull-Ideas/vllm.ornith-1.0-35b_spark.git .
 
 bash setup_vllm.sh
 bash download_model.sh
